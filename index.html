@@ -1,0 +1,49 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body class="container">
+        <header>
+            <form>
+                <label for="colorPicker"></label>
+                <input type="color" name="colorPicker" id="cPicker" class="cPicker">
+                <label for="selectMenu"></label>
+                <select id="sMenu" name="selectMenu">
+                    <option value="Monochrome" class="selected">Monochrome</option>
+                    <option value="Monochrome-dark">Monochrome-dark</option>
+                    <option value="Monochrome-light">Monochrome-light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="Analogic-complement">Analogic-complement</option>
+                    <option value="Triad">Triad</option>
+                </select>
+                <button id="btn">Get color scheme</button>
+            </form>
+        </header>
+        <main>
+            <div class="colors">
+                <div class="color" id="color-1">
+                </div>
+                <div class="color" id="color-2">
+                </div>
+                <div class="color" id="color-3">
+                </div>
+                <div class="color" id="color-4">
+                </div>
+                <div class="color" id="color-5">
+                </div>
+            </div>
+            <div class="hex-footer">
+                <p class="hex-name" id="colorName-1">#F55A5A</p>
+                <p class="hex-name" id="colorName-2">#F55A5A</p>
+                <p class="hex-name" id="colorName-3">#F55A5A</p>
+                <p class="hex-name" id="colorName-4">#F55A5A</p>
+                <p class="hex-name" id="colorName-5">#F55A5A</p>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

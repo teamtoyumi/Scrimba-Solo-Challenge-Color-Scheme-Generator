@@ -1,0 +1,121 @@
+html, body, main {
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #111827;
+    height: 100%; 
+}
+
+.container {
+    margin: 0 auto;
+    width: 550px
+}
+
+header, .hex-footer {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.15);
+}
+
+header{
+    padding: 25px 0;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+input, select, button{
+    height: 42px;
+    margin: 6.5px;
+}
+
+.cPicker{
+    padding: 0px;
+    width: 61px;
+    height: 42px;
+    background: #E5E5E5;
+    border: 0.5px solid #D1D5DB;
+}
+
+select{
+    width: 312px;
+    height: 42px;
+    padding: 0 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+button{
+    width: 123px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #374151;
+}
+
+
+
+.colors{
+    height: 80%;
+    display: flex;
+}
+
+.color {
+    width: 110px;
+}
+
+#color-1{
+    background: #F55A5A;
+}
+
+#color-2{
+    background: #2B283A;
+}
+
+#color-3{
+    background:#FBF3AB;
+}
+
+#color-4{
+    background: #AAD1B6;
+}
+
+#color-5{
+    background: #A626D3;
+}
+
+
+.hex-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    font-weight: 500;
+    font-size: 12px;
+    padding: 11px 28px;
+    margin: 0;
+    text-align: center;
+    color: #2B283A;
+}
+
+
+
+
+
+
+
