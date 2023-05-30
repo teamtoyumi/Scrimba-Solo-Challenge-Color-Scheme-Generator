@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
@@ -8,9 +9,9 @@
     <body class="container">
         <header>
             <form>
-                <label for="colorPicker"></label>
+                <label for="cPicker"></label>
                 <input type="color" name="colorPicker" id="cPicker" class="cPicker">
-                <label for="selectMenu"></label>
+                <label for="sMenu"></label>
                 <select id="sMenu" name="selectMenu">
                     <option value="Monochrome" class="selected">Monochrome</option>
                     <option value="Monochrome-dark">Monochrome-dark</option>
@@ -24,7 +25,7 @@
             </form>
         </header>
         <main>
-            <div class="colors">
+            <div class="colors" id="colors">
                 <div class="color" id="color-1">
                 </div>
                 <div class="color" id="color-2">

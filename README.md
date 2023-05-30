@@ -1,4 +1,4 @@
-# co84d448a85809881ceaf6794
+# Sofie's Color Picker
 
 ## About Scrimba
 
